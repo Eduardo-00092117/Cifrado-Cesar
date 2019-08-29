@@ -1,0 +1,38 @@
+.contenedor{
+    width: fit-content;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.096);
+    background: rgba(128, 128, 128, 0.418);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor > h1{
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.contenedor-botones{
+    padding: 8px;
+    text-align: center;
+}
+
+.contenedor-botones > button{
+    padding: 8px;
+    border-color: transparent;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+}
+
+.contenedor-botones > #cifrar{
+    background: rgb(1, 104, 1);
+}
+
+.contenedor-botones > #decifrar{
+    background: rgb(146, 0, 0);
+}
